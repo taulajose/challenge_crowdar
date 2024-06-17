@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^13.11.0",
+    "cypress-axe": "^1.5.0"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+
+  "scripts": {
+    "chrome": "cypress run --browser chrome",
+    "edge": "cypress run --browser edge"
+  }
+}
